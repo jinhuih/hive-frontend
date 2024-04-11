@@ -1,6 +1,6 @@
 # hive-frontend
 
-This repo demonstrates a custom-built, reusable dropdown menu component developed with React. It showcases both single and multi-select functionalities, designed to be easily integrated into larger applications as part of a component library. The dropdown component supports opening and closing actions, selecting and deselecting options—including a "Select All"/"Deselect All" feature for multi-select mode—and displays selected options when the dropdown is closed.
+Welcome my repo! This project is designed to showcase  single and multi-select functionalities within dropdown menus, making it a perfect addition to any application requiring dynamic user input options.
 
 ## Getting Started
 
@@ -35,6 +35,27 @@ Before running this project, you need to have Node.js and npm installed on your 
    ```
    npm start
    ```
+
+5. You can now view hive-frontend in the browser.
+
+    ```
+    Local:            http://localhost:3000
+    On Your Network:  http://10.0.0.45:3000
+    ```
+
+## Features
+1. Customizable: Supports single and multi-select options.
+2. Reusable: Designed with a flexible API for easy integration.
+3. User Interaction: 
+    1. Open/Close Transitions: Smooth transition effects for dropdown open/close actions.
+    2. Continuous Selection: Allows continuous selection in single-select mode, closing only on external click.
+    3. Select/Deselect All: Facilitates bulk selection or deselection in multi-select mode.
+    4. Checkbox for Multi-Select: Implements checkboxes for clear selection indicators in multi-select mode.
+    5. Persistent Dropdown: Remains open for single selections until an external click.
+    6. Scrollable Options: Integrates a scrollbar for navigating through numerous options.
+    7. Animated Arrow Indicator: Features a smoothly animated arrow for open/close visual cues.
+
+4. Display Selected Options: Clearly shows selected options when the dropdown is closed.
 
 ## Technology Stack
 
